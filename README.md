@@ -7,7 +7,9 @@
 `npx create-next-app@latest`
 
 ## prisma
-`npm install prisma -D`
-`npx prisma init --datasource-provider sqlite`
-`npx prisma migrate dev --name init`
-`npx prisma studio`
+```
+  npm install prisma -D
+  npx prisma init --datasource-provider sqlite
+  npx prisma migrate dev --name init
+  npx prisma studio
+```
